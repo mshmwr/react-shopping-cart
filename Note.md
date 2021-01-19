@@ -12,13 +12,20 @@
 ## CSS 字體單位
 * [一次搞懂 CSS 字體單位：px、em、rem 和 %](https://www.oxxostudio.tw/articles/201809/css-font-size.html)
 
-## 置中
-* 內容的水平&垂直置中
-  ```
-  justify-content: center; /*水平置中*/
-  align-items: center; /*垂直置中*/
-  ```
-
+## 空間分配
+* 置中
+  * 內容的水平&垂直置中
+    ```
+    justify-content: center; /*水平置中*/
+    align-items: center; /*垂直置中*/
+    ```
+  
+  * 內容的平均分配&垂直置中
+    ```
+    justify-content: space-between; /*平均分配空間*/
+    align-items: center; /*垂直置中*/
+    ```
+* 欄位均分空間: `flex: 1;`
 # Step 4: Project Workflow 
 有列出做每個功能需要的時長
 
@@ -40,3 +47,16 @@
 * [google fonts](https://fonts.google.com/?selection.family=Montserrat&sidebar.open=true)
   * import教學: 18'48
   
+# Step 7
+* let v.s. const
+  ES6的語法。[ref](https://eyesofkids.gitbooks.io/react-basic-zh-tw/content/day05_es6_let_const/)
+  * const針對是常數的定義，常數在一宣告時就必定要指定給值，不然會產生錯誤。而對於常數在ES6的定義是:__不可再指定(can't re-assignment)__。指定的意思就是用等號(=)作指定運算，像下面這例子就是再指定值(或重覆指定值)，所以會產生錯誤。
+  * let使用於for語句
+* cartItems.push({...product, count: 1});
+  * TODO
+* div:last-child
+  偽類，最後一個子元素。
+  [CSS 偽類 child 和 of-type](https://www.oxxostudio.tw/articles/201405/css-selector.html)
+* filter(): (ES5, ES6語法) 遍歷每個元素，回傳 true 時，目前的值會保留在陣列內，這會回傳一個新陣列，而不是修改原本的陣列。
+* reduce(): (ES5, ES6語法) 遍历数组，在每一项元素后面触发一个回调函数，经过计算返回一个累加的值。
+
