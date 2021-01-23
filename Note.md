@@ -60,3 +60,7 @@
 * filter(): (ES5, ES6語法) 遍歷每個元素，回傳 true 時，目前的值會保留在陣列內，這會回傳一個新陣列，而不是修改原本的陣列。
 * reduce(): (ES5, ES6語法) 遍历数组，在每一项元素后面触发一个回调函数，经过计算返回一个累加的值。
 
+# Step 8
+* 使用react-reveal的Fade時，遇到**Module build failed (from ./node_modules/babel-loader/lib/index.js)**
+  * 原因: babel版本過舊
+  * 解法: `npm install @babel/core @babel/preset-env`，並重新執行`npm start` [(ref)](https://stackoverflow.com/questions/56098779/how-to-fix-module-build-failed-from-node-modules-babel-loader-lib-index-js)

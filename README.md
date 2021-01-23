@@ -38,3 +38,14 @@
       其中，JSON.stringify(): 將任何物件轉變為 JSON 字串 [(ref)](https://medium.com/itsems-frontend/javascript-json-stringify-and-json-parse-7a1251d3824c)
     * JSON 變物件: JSON.parse() (3'02)
       可以接收 JSON 字串，轉為 Javascript 物件或是值。
+
+## 09 Animation
+* 安裝react-reveal使用特效(Fade): (2'15) 
+  * [react-reveal官網](https://www.react-reveal.com/docs/cascade/)
+  * code:　`<Fade bottom cascade></Fade>`
+    * bottom: 從下而上滑動進入
+
+* 安裝react-modal使用彈出視窗效果: (6'17) 
+* 把package-lock加到gitignore (19'35)
+  * 但此作法待議，網路上很多人建議 package-lock.json 不应写进 .gitignore
+* 
