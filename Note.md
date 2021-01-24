@@ -39,8 +39,8 @@
   /* 两个值: flex-grow | flex-basis */
   flex: 1 30px;
   ```
-  [ref](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
-  * flex-grow v.s. flex-basis [ref](https://ithelp.ithome.com.tw/articles/10208741)
+  [(ref)](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
+  * flex-grow v.s. flex-basis [(ref)](https://ithelp.ithome.com.tw/articles/10208741)
     * flex-grow: 分配剩餘空間，值只有1或0
     *  flex-basis: 分配到的空間(數值後面要有單位)，flex-basis 會覆蓋 width
   
@@ -49,7 +49,7 @@
   
 # Step 7
 * let v.s. const
-  ES6的語法。[ref](https://eyesofkids.gitbooks.io/react-basic-zh-tw/content/day05_es6_let_const/)
+  ES6的語法。[(ref)](https://eyesofkids.gitbooks.io/react-basic-zh-tw/content/day05_es6_let_const/)
   * const針對是常數的定義，常數在一宣告時就必定要指定給值，不然會產生錯誤。而對於常數在ES6的定義是:__不可再指定(can't re-assignment)__。指定的意思就是用等號(=)作指定運算，像下面這例子就是再指定值(或重覆指定值)，所以會產生錯誤。
   * let使用於for語句
 * cartItems.push({...product, count: 1});
@@ -64,3 +64,8 @@
 * 使用react-reveal的Fade時，遇到**Module build failed (from ./node_modules/babel-loader/lib/index.js)**
   * 原因: babel版本過舊
   * 解法: `npm install @babel/core @babel/preset-env`，並重新執行`npm start` [(ref)](https://stackoverflow.com/questions/56098779/how-to-fix-module-build-failed-from-node-modules-babel-loader-lib-index-js)
+
+
+# Step 10
+* async, await and promise:
+  只要 function 標記為 async，就表示裡頭可以撰寫 await 的同步語法，而 await 顧名思義就是「等待」，它會確保一個 promise 物件都解決 ( resolve ) 或出錯 ( reject ) 後才會進行下一步，當 async function 的內容全都結束後，會返回一個 promise，這表示後方可以使用.then語法來做連接。 [(ref)](https://www.oxxostudio.tw/articles/201908/js-async-await.html)

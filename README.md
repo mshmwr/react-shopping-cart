@@ -47,5 +47,10 @@
 
 * 安裝react-modal使用彈出視窗效果: (6'17) 
 * 把package-lock加到gitignore (19'35)
-  * 但此作法待議，網路上很多人建議 package-lock.json 不应写进 .gitignore
-* 
+  * 但此作法待議，網路上很多人建議 package-lock.json 不应写进 .gitignore 
+
+## 10 Build Products Backend
+* async (11'00)
+  * 非同步語法
+* 安裝mongoDB, postman
+  * npm run server
