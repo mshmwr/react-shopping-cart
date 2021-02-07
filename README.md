@@ -66,5 +66,20 @@
   - 非同步語法
 - 安裝 mongoDB, postman
   - npm run server
-  - 在 postman，選擇 GET，貼上 server 網址: http://localhost:5000/api/products
-  - 在 postman，選擇 POST，貼上 server 網址: http://localhost:5000/api/products，在下方蘭位貼上 Data
+  - using postman to do GET/POST/DELETE
+    - server 網址: http://localhost:5000/api/products
+
+## 11 Add Redux To Products
+
+- Using Redux
+  - introduce what is redux (diagram)
+  - 安裝 redux package: npm install redux react-redux redux-thunk
+  - create redux type: types.js
+  - create actions/productActions.js
+    - declare fetchProducts
+  - create reducer/productReducers.js
+  - create store.js
+  - set proxy in package.json
+  - run server and react
+    - server: npm run server
+    - react: npm start

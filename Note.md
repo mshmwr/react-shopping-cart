@@ -84,7 +84,7 @@
 - async, await and promise:
   只要 function 標記為 async，就表示裡頭可以撰寫 await 的同步語法，而 await 顧名思義就是「等待」，它會確保一個 promise 物件都解決 ( resolve ) 或出錯 ( reject ) 後才會進行下一步，當 async function 的內容全都結束後，會返回一個 promise，這表示後方可以使用.then 語法來做連接。 [(ref)](https://www.oxxostudio.tw/articles/201908/js-async-await.html)
 
-* 安裝 mongoDB, postman
+- 安裝 mongoDB, postman
   - npm run server
   - postman
     - 取得目前 JSON 內存放的內容：
@@ -97,3 +97,7 @@
         - 可以回到 GET 頁面，重新按下 send，會看到新增上去的項目
     - 刪除 JSON 內的項目：
       - 在 postman，開新的標籤，選擇 DELETE，貼上 server 網址和想刪除的項目 id: http://localhost:5000/api/products/"id"
+
+# Step 11
+
+- [介紹 redux](https://chentsulin.github.io/redux/docs/api/applyMiddleware.html)
