@@ -30,7 +30,6 @@ const Product = mongoose.model(
 //get list of products
 app.get("/api/products", async (req, res) => {
   const products = await Product.find({}); //empty parameter: there is no condition, return all products
-  console.log("products: " + products);
   res.send(products);
 });
 
