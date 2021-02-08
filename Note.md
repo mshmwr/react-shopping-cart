@@ -101,3 +101,8 @@
 # Step 11
 
 - [介紹 redux](https://chentsulin.github.io/redux/docs/api/applyMiddleware.html)
+
+# Step 12
+
+- ...有點像 foreach 的功能，遍歷 array 內所有元素
+- 他沒有在 filter 這邊把選完 size 之後的動作加 sort
